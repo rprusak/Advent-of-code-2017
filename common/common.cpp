@@ -3,6 +3,7 @@
 #include <fstream>
 #include <iostream>
 
+namespace common {
 std::vector<std::string> readInput(const std::string& filename) {
   std::vector<std::string> result;
 
@@ -17,3 +18,4 @@ std::vector<std::string> readInput(const std::string& filename) {
 
   return result;
 }
+}  // namespace common

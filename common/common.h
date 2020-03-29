@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 
-std::vector<std::string> readInput(const std::string& filename);
+namespace common {
+  std::vector<std::string> readInput(const std::string& filename);
+};
 
 #endif  // COMMON_H
